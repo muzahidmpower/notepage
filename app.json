@@ -1,0 +1,7 @@
+{
+  "name": "notepage",
+  "description": "notepage - A Node.js",
+  "repository": "https://github.com/muzahidmpower/notepage",
+  "logo": "https://node-js-sample.herokuapp.com/node.png",
+  "keywords": ["node", "express", "static"]
+}
