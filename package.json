@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "notepage - A node.js application",
   "main": "notepage.js",
-  "scripts": {
-    "start": "node notepage.js"
-  },
   "keywords": [
     "example",
     "heroku"
@@ -17,6 +14,7 @@
   },
   "engines": {
     "node": "4.1.1"
+	"npm": "2.1.x"
   },
   "repository": {
     "type": "git",
@@ -31,5 +29,6 @@
   },
   "scripts": {
 	"start": "node notepage.js"
+	 "postinstall": "bower install && grunt build"
   }
 }
