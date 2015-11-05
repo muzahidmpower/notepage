@@ -4,7 +4,7 @@
   "description": "notepage - A node.js application",
   "main": "notepage.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node notepage.js"
   },
   "keywords": [
     "example",
@@ -12,7 +12,20 @@
   ],
   "author": "mmuzahid",
   "license": "MIT",
-  
+  "dependencies": {
+    "express": "^4.9.8"
+  },
+  "engines": {
+    "node": "4.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muzahidmpower/notepage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/muzahidmpower/notepage/issues"
+  },
+  "homepage": "https://github.com/muzahidmpower/notepage#readme",
   "engines": {
     "node": "4.1.1"
   },
