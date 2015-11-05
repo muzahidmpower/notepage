@@ -31,7 +31,8 @@
   "scripts": {
 	"start": "node notepage.js",
 	"postinstall": "bower install && grunt build"
-  }
-  }
+  },
+  "cacheDirectories": ["node_modules", "bower_components", "public/build" ]
+}
 
 
