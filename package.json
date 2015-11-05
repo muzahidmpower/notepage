@@ -32,5 +32,6 @@
 	"start": "node notepage.js",
 	"postinstall": "bower install && grunt build"
   }
-}
+  }
+
 
