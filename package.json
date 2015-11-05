@@ -5,8 +5,9 @@
   "description": "notepage - A node.js application",
   "main": "notepage.js",
   "keywords": [
-    "example",
-    "heroku"
+    "node",
+    "heroku",
+    "express"
   ],
   "author": "mmuzahid",
   "license": "MIT",
@@ -14,7 +15,7 @@
     "express": "^4.9.8"
   },
   "engines": {
-    "node": "4.1.1",
+    "node": "0.10.x",
 	"npm": "2.1.x"
   },
   "repository": {
@@ -29,8 +30,7 @@
     "node": "4.1.1"
   },
   "scripts": {
-	"start": "node notepage.js",
-	"postinstallation": "npm install"
+	"start": "node notepage.js"
   }
 }
 
