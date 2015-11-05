@@ -11,9 +11,12 @@
     "heroku"
   ],
   "author": "mmuzahid",
-  "license": "MIT"
+  "license": "MIT",
   
   "engines": {
     "node": "4.1.1"
   },
+  "scripts": {
+	"start": "node notepage.js"
+  }
 }
